@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>creative landing page with counter effect</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="funfacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="single-fun">
+                        <img src="1.png" alt="">
+                        <p>
+                            <span class="count">92</span> satisfied client
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="single-fun">
+                        <img src="2.png" alt="">
+                        <p>
+                            <span class="count">98</span> Total <br> Projects
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="single-fun">
+                        <img src="3.png" alt="">
+                        <br>
+                        <p>
+                            <span class="count">58</span> work <br> completed
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="single-fun">
+                        <img src="4.png" alt="">
+                        <br>
+                        <p>
+                            <span class="count">78</span> Project <br> completed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+        $(function() {
+            $('.count').counterUp({
+                delay: 17,
+                time: 5000
+            });
+        })
+    </script>
+
+</body>
+
+</html>
